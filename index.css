@@ -3,21 +3,37 @@ body {
     background: pink;
     font-size: 16px;
     font-size: normal;
+    font-weight: normal;
+}
+
+.pagetitle {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 0.5rem;
 }
 
 nav {
     background: purple;
+    margin: auto;
     padding: 0.4em;
+    margin-bottom: 1em;
     border: blue;
     border-style: solid;
     border-width: 0.1em;
     font-size: large;
+    max-width: fit-content;
+    align-self: center;
 }
 
 nav a {
+    display: inline-block;
     color: red;
     background: blue;
     text-decoration: none;
+    width: 5em;
+    height: 1.2em;
+    text-align: center;
 }
 nav a:hover {
     color: aqua;
@@ -26,9 +42,4 @@ nav a:hover {
 nav a:active {
     color: pink;
     background: aqua;
-}
-
-.pagetitle {
-    text-align: center;
-    font-size: xx-large;
 }
