@@ -15,7 +15,7 @@ body {
     padding: 0.5rem;
 }
 
-nav {
+nav, .pagenav {
     background: purple;
     margin: auto;
     padding: 0.4em;
@@ -26,7 +26,7 @@ nav {
     align-self: center;
 }
 
-nav a {
+nav a, .pagenav a {
     display: inline-block;
     color: red;
     background: blue;
@@ -38,11 +38,11 @@ nav a {
     margin: 0.2em;
     padding: 0.5em;
 }
-nav a:hover {
+nav a:hover, .pagenav a:hover {
     color: aqua;
     background: red;
 }
-nav a:active {
+nav a:active, .pagenav a:active {
     color: pink;
     background: aqua;
 }
@@ -72,7 +72,21 @@ nav a:active {
 
 #box1, #box4 {
     width: 36em;
+    height: 20em;
 }
 #box2, #box3 {
     width: 16em;
+    height: 20em;
+}
+#box5, #box6 {
+    width: 26em;
+    height: 10em;
+}
+#box5 div {
+    display: inline-block;
+}
+
+.button8831, img .button8831 {
+    width: 88px;
+    height: 31px;
 }
