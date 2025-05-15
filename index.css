@@ -1,14 +1,16 @@
+:root {
+    font-size: normal;
+    font-size: 16px;
+}
 body {
     font-family: Rubik, Roboto, sans-serif;
     background: pink;
-    font-size: 16px;
-    font-size: normal;
     font-weight: normal;
 }
 
 .pagetitle {
     text-align: center;
-    font-size: xx-large;
+    font-size: 3rem;
     font-weight: bold;
     padding: 0.5rem;
 }
@@ -17,11 +19,9 @@ nav {
     background: purple;
     margin: auto;
     padding: 0.4em;
-    margin-bottom: 1em;
-    border: blue;
-    border-style: solid;
-    border-width: 0.1em;
-    font-size: large;
+    margin-bottom: 0.5em;
+    border: 0.2rem solid blue;
+    font-size: 1.2em;
     max-width: fit-content;
     align-self: center;
 }
@@ -30,9 +30,9 @@ nav a {
     display: inline-block;
     color: red;
     background: blue;
+    border: 0.2rem solid blue;
     text-decoration: none;
-    min-width: 4em;
-    max-width: 4em;
+    width: 6em;
     height: 1.2em;
     text-align: center;
     margin: 0.2em;
@@ -48,16 +48,31 @@ nav a:active {
 }
 
 .pagebody {
-    display: grid;
-    display: flex;
+    display: block;
+    /*display: grid;*/
+    /*display: flex;*/
+    margin: auto;
     align-self: center;
     align-content: center;
     justify-content: center;
+    text-align: center;
     gap: 2em;
+    width: 60em;
 }
+
 .box {
+    border: 0.2rem solid blue;
     display: inline-block;
     background: white;
     padding: 1em;
-    width: 18em;
+    margin: 0.5em 0.5em;
+    width: 20em; /* Default incase something goes wrong */
+    text-align: left;
+}
+
+#box1, #box4 {
+    width: 36em;
+}
+#box2, #box3 {
+    width: 16em;
 }
