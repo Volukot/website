@@ -31,9 +31,12 @@ nav a {
     color: red;
     background: blue;
     text-decoration: none;
-    width: 5em;
+    min-width: 4em;
+    max-width: 4em;
     height: 1.2em;
     text-align: center;
+    margin: 0.2em;
+    padding: 0.5em;
 }
 nav a:hover {
     color: aqua;
@@ -42,4 +45,19 @@ nav a:hover {
 nav a:active {
     color: pink;
     background: aqua;
+}
+
+.pagebody {
+    display: grid;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    gap: 2em;
+}
+.box {
+    display: inline-block;
+    background: white;
+    padding: 1em;
+    width: 18em;
 }
