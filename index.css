@@ -1,7 +1,7 @@
 :root {
-    font-size: normal;
-    font-size: 16px;
+    font-size: 12px;
 }
+
 body {
     font-family: Rubik, Roboto, sans-serif;
     background: #ffbbcd;
@@ -106,4 +106,90 @@ nav a:active, .pagenav a:active {
 .button8831, img .button8831 {
     width: 88px;
     height: 31px;
+}
+
+@media (max-width: 6000px) {
+    :root {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1100px) {
+    :root {
+        font-size: 14px;
+    }
+}
+@media (max-width: 850px) {
+    :root {
+        font-size: 14px;
+    }
+    .pagebody {
+        width: auto;
+        width: 49em;
+    }
+#box1, #box4 {
+    width: 28em;
+    height: 20em;
+}
+#box2, #box3 {
+    width: 14em;
+    height: 20em;
+}
+#box5, #box6 {
+    width: 21em;
+    height: 10em;
+}
+#box5 div {
+    display: inline-block;
+}
+}
+@media (max-width: 700px) {
+    :root {
+        font-size: 14px;
+    }
+    .pagebody {
+        width: auto;
+        width: 40em;
+    }
+    #box1,
+    #box2,
+    #box3,
+    #box4,
+    #box5,
+    #box6 {
+        width: 36em;
+        height: 20em;
+    }
+    #box5 div {
+        display: inline-block;
+    }
+}
+@media (max-width: 580px) {
+    :root {
+        font-size: 12px;
+    }
+}
+@media (max-width: 510px) {
+    :root {
+        font-size: 10px;
+    }
+}
+@media (max-width: 425px) {
+    .pagetitle {
+        font-size: 36px;
+    }
+    :root {
+        font-size: 8px;
+    }
+    .pagetitle::after {
+        content: " is too big to display for your display. Please unzoom.";
+    }
+    #box1,
+    #box2,
+    #box3,
+    #box4,
+    #box5,
+    #box6 {
+        width: 36em;
+        height: 20em;
+    }
 }
