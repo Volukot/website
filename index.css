@@ -163,17 +163,17 @@ nav a:active, .pagenav a:active {
         display: inline-block;
     }
 }
-@media (max-width: 580px) {
+@media (max-width: 600px) {
     :root {
         font-size: 12px;
     }
 }
-@media (max-width: 510px) {
+@media (max-width: 520px) {
     :root {
         font-size: 10px;
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 435px) {
     .pagetitle {
         font-size: 36px;
     }
