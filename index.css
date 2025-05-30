@@ -109,6 +109,18 @@ nav a:active, .pagenav a:active {
     height: 31px;
 }
 
+.introimage img, .introimage {
+    display: inline;
+    vertical-align: top;
+    height: 12rem;
+    width: 12rem;
+}
+.introtext {
+    display: inline-block;
+    width: 23.5em;
+    vertical-align: top;
+}
+
 @media (max-width: 6000px) {
     :root {
         font-size: 16px;
