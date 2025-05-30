@@ -85,6 +85,7 @@ nav a:active, .pagenav a:active {
     margin: 0.5em 0.5em;
     width: 20em; /* Default incase something goes wrong */
     text-align: left;
+    vertical-align: top;
 }
 
 #box1, #box4 {
