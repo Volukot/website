@@ -7,7 +7,7 @@
     "settings": {
         "vscord.app.name": "Custom",
         "vscord.app.id": "1372585480218087475",
-        "vscord.status.problems.text": "- {problems_count} pwoblems found x3",
+        "vscord.status.problems.text": "{problems_count} pwoblems found",
         "vscord.status.details.text.debugging": "defluffin' {file_name}{file_extension} xwx",
         "vscord.status.details.text.editing": "on {workspace} with {problems} =*w*=",
         "vscord.status.details.text.idle": "eeping zwz",
