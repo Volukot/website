@@ -48,7 +48,7 @@ nav a,
 	border-color: #00ffff;
 	border: 0.2rem solid #00ffff;
 	text-decoration: none;
-	width: 6rem;
+	width: 9rem;
 	height: 1.25rem;
 	text-align: center;
 	margin: 0.2rem;
@@ -135,6 +135,10 @@ img .button8831 {
 	width: 23.5rem;
 }
 
+#navelement-photo::after {
+    content: "graphs";
+}
+
 @media (max-width: 9000px) {
 	:root {
 		font-size: 20px;
@@ -189,6 +193,13 @@ img .button8831 {
 		width: auto;
 		width: 40rem;
 	}
+    nav a,
+    .pagenav a {
+	    width: 6rem;
+    }
+    #navelement-photo::after {
+        content: "s";
+    }
 	#box1,
 	#box2,
 	#box3,
@@ -218,7 +229,7 @@ img .button8831 {
 }
 @media (max-width: 435px) {
 	.pagetitle {
-		font-size: 36px;
+		font-size: 30px;
 	}
 	:root {
 		font-size: 8px;
