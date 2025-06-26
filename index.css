@@ -1,9 +1,13 @@
 :root {
     font-size: 12px;
+    vertical-align: top;
+}
+* {
+    vertical-align: top;
 }
 
 body {
-    font-family: Rubik, Roboto, sans-serif;
+    font-family: Rubik, "Liberation Sans", Roboto, sans-serif;
     background: #ffbbcd;
     font-weight: normal;
     color: white;
@@ -12,10 +16,10 @@ body {
 .pagetitle {
     color: red;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
-    padding: 0.5rem;
-    -webkit-text-stroke: white 0.04em;
+    padding: 0rem;
+    -webkit-text-stroke: white 0.15rem;
     font-weight: 600;
 }
 
@@ -23,12 +27,12 @@ nav, .pagenav {
     background: #aa77ff;
     background: #0000ff55;
     margin: auto;
-    padding: 0.4em;
-    margin-bottom: 0.5em;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
     border: 0.2rem solid #a0b0ff;
     border: 0.2rem solid #00ffff55;
     border: 0.2rem solid #00aaff;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     max-width: fit-content;
     align-self: center;
 }
@@ -42,13 +46,15 @@ nav a, .pagenav a {
     border-color: #00ffff;
     border: 0.2rem solid #00ffff;
     text-decoration: none;
-    width: 6em;
-    height: 1.25em;
+    width: 6rem;
+    height: 1.25rem;
     text-align: center;
-    margin: 0.2em;
-    padding: 0.5em;
-    /*-webkit-text-stroke: white 0.01em;*/
+    margin: 0.2rem;
+    padding: 0.5rem;
+    padding-bottom: 0.7rem;
+    /*-webkit-text-stroke: white 0.05rem;*/
     font-weight: 500;
+    vertical-align: middle;
 }
 nav a:hover, .pagenav a:hover {
     color: aqua;
@@ -68,8 +74,8 @@ nav a:active, .pagenav a:active {
     align-content: center;
     justify-content: center;
     text-align: center;
-    gap: 2em;
-    width: 60em;
+    gap: 2rem;
+    width: 60rem;
 }
 
 .box {
@@ -81,24 +87,25 @@ nav a:active, .pagenav a:active {
     display: inline-block;
     background: #dd00ff;
     background: #cc00ffbb;
-    padding: 1em;
-    margin: 0.5em 0.5em;
-    width: 20em; /* Default incase something goes wrong */
+    padding: 1rem;
+    margin: 0.5rem 0.5rem;
+    width: 20rem; /* Default incase something goes wrong */
     text-align: left;
     vertical-align: top;
+    font-size: 1.2rem;
 }
 
 #box1, #box4 {
-    width: 36em;
-    height: 20em;
+    width: 36rem;
+    height: 12rem;
 }
 #box2, #box3 {
-    width: 16em;
-    height: 20em;
+    width: 16rem;
+    height: 12rem;
 }
 #box5, #box6 {
-    width: 26em;
-    height: 10em;
+    width: 26rem;
+    height: 10rem;
 }
 #box5 div {
     display: inline-block;
@@ -111,22 +118,25 @@ nav a:active, .pagenav a:active {
 
 .introimage img, .introimage {
     display: inline;
-    vertical-align: top;
     height: 12rem;
     width: 12rem;
 }
 .introtext {
     display: inline-block;
-    width: 23.5em;
-    vertical-align: top;
+    width: 23.5rem;
 }
 
-@media (max-width: 6000px) {
+@media (max-width: 9000px) {
+    :root {
+        font-size: 20px;
+    }
+}
+@media (max-width: 2200px) {
     :root {
         font-size: 16px;
     }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
     :root {
         font-size: 14px;
     }
@@ -137,19 +147,23 @@ nav a:active, .pagenav a:active {
     }
     .pagebody {
         width: auto;
-        width: 49em;
+        width: 49rem;
     }
+.introtext {
+    width: 17.6rem;
+    font-size: 1rem;
+}
 #box1, #box4 {
-    width: 28em;
-    height: 20em;
+    width: 30rem;
+    height: 12rem;
 }
 #box2, #box3 {
-    width: 14em;
-    height: 20em;
+    width: 12rem;
+    height: 12rem;
 }
 #box5, #box6 {
-    width: 21em;
-    height: 10em;
+    width: 21rem;
+    height: 10rem;
 }
 #box5 div {
     display: inline-block;
@@ -161,7 +175,7 @@ nav a:active, .pagenav a:active {
     }
     .pagebody {
         width: auto;
-        width: 40em;
+        width: 40rem;
     }
     #box1,
     #box2,
@@ -169,12 +183,16 @@ nav a:active, .pagenav a:active {
     #box4,
     #box5,
     #box6 {
-        width: 36em;
-        height: 20em;
+        width: 36rem;
+        height: 12rem;
     }
     #box5 div {
         display: inline-block;
     }
+.introtext {
+    width: 23.5rem;
+    font-size: 1.2rem;
+}
 }
 @media (max-width: 600px) {
     :root {
@@ -195,14 +213,5 @@ nav a:active, .pagenav a:active {
     }
     .pagetitle::after {
         content: " is too big to display for your display. Please unzoom.";
-    }
-    #box1,
-    #box2,
-    #box3,
-    #box4,
-    #box5,
-    #box6 {
-        width: 36em;
-        height: 20em;
     }
 }
