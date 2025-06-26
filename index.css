@@ -1,217 +1,229 @@
 :root {
-    font-size: 12px;
-    vertical-align: top;
+	font-size: 12px;
+	vertical-align: top;
 }
 * {
-    vertical-align: top;
+	vertical-align: top;
 }
 
 body {
-    font-family: Rubik, "Liberation Sans", Roboto, sans-serif;
-    background: #ffbbcd;
-    font-weight: normal;
-    color: white;
+	font-family: Rubik, "Liberation Sans", Roboto, sans-serif;
+	background: #ffbbcd;
+	font-weight: normal;
+	color: white;
 }
 
 .pagetitle {
-    color: red;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: bold;
-    padding: 0rem;
-    -webkit-text-stroke: white 0.15rem;
-    font-weight: 600;
+	color: red;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bold;
+	padding: 0rem;
+	-webkit-text-stroke: white 0.15rem;
+	font-weight: 600;
 }
 
-nav, .pagenav {
-    background: #aa77ff;
-    background: #0000ff55;
-    margin: auto;
-    padding: 0.4rem;
-    margin-bottom: 0.5rem;
-    border: 0.2rem solid #a0b0ff;
-    border: 0.2rem solid #00ffff55;
-    border: 0.2rem solid #00aaff;
-    font-size: 1.25rem;
-    max-width: fit-content;
-    align-self: center;
+nav,
+.pagenav {
+	background: #aa77ff;
+	background: #0000ff55;
+	margin: auto;
+	padding: 0.4rem;
+	margin-bottom: 0.5rem;
+	border: 0.2rem solid #a0b0ff;
+	border: 0.2rem solid #00ffff55;
+	border: 0.2rem solid #00aaff;
+	font-size: 1.25rem;
+	max-width: fit-content;
+	align-self: center;
 }
 
-nav a, .pagenav a {
-    display: inline-block;
-    color: white;
-    background: #ff00ff;
-    border-width: 2px;
-    border: solid;
-    border-color: #00ffff;
-    border: 0.2rem solid #00ffff;
-    text-decoration: none;
-    width: 6rem;
-    height: 1.25rem;
-    text-align: center;
-    margin: 0.2rem;
-    padding: 0.5rem;
-    padding-bottom: 0.7rem;
-    /*-webkit-text-stroke: white 0.05rem;*/
-    font-weight: 500;
-    vertical-align: middle;
+nav a,
+.pagenav a {
+	display: inline-block;
+	color: white;
+	background: #ff00ff;
+	border-width: 2px;
+	border: solid;
+	border-color: #00ffff;
+	border: 0.2rem solid #00ffff;
+	text-decoration: none;
+	width: 6rem;
+	height: 1.25rem;
+	text-align: center;
+	margin: 0.2rem;
+	padding: 0.5rem;
+	padding-bottom: 0.7rem;
+	/*-webkit-text-stroke: white 0.05rem;*/
+	font-weight: 500;
+	vertical-align: middle;
 }
-nav a:hover, .pagenav a:hover {
-    color: aqua;
-    background: red;
+nav a:hover,
+.pagenav a:hover {
+	color: aqua;
+	background: red;
 }
-nav a:active, .pagenav a:active {
-    color: red;
-    background: aqua;
+nav a:active,
+.pagenav a:active {
+	color: red;
+	background: aqua;
 }
 
 .pagebody {
-    display: block;
-    /*display: grid;*/
-    /*display: flex;*/
-    margin: auto;
-    align-self: center;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem;
-    width: 60rem;
+	display: block;
+	/*display: grid;*/
+	/*display: flex;*/
+	margin: auto;
+	align-self: center;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	gap: 2rem;
+	width: 60rem;
 }
 
 .box {
-    border-width: 2px;
-    border: solid;
-    border-color: blue;
-    border: 0.2rem solid #0000ffbb;
-    border: 0.2rem solid blue;
-    display: inline-block;
-    background: #dd00ff;
-    background: #cc00ffbb;
-    padding: 1rem;
-    margin: 0.5rem 0.5rem;
-    width: 20rem; /* Default incase something goes wrong */
-    text-align: left;
-    vertical-align: top;
-    font-size: 1.2rem;
+	border-width: 2px;
+	border: solid;
+	border-color: blue;
+	border: 0.2rem solid #0000ffbb;
+	border: 0.2rem solid blue;
+	display: inline-block;
+	background: #dd00ff;
+	background: #cc00ffbb;
+	padding: 1rem;
+	margin: 0.5rem 0.5rem;
+	width: 20rem; /* Default incase something goes wrong */
+	text-align: left;
+	vertical-align: top;
+	font-size: 1.2rem;
 }
 
-#box1, #box4 {
-    width: 36rem;
-    height: 12rem;
+#box1,
+#box4 {
+	width: 36rem;
+	height: 12rem;
 }
-#box2, #box3 {
-    width: 16rem;
-    height: 12rem;
+#box2,
+#box3 {
+	width: 16rem;
+	height: 12rem;
 }
-#box5, #box6 {
-    width: 26rem;
-    height: 10rem;
+#box5,
+#box6 {
+	width: 26rem;
+	height: 10rem;
 }
 #box5 div {
-    display: inline-block;
+	display: inline-block;
 }
 
-.button8831, img .button8831 {
-    width: 88px;
-    height: 31px;
+.button8831,
+img .button8831 {
+	width: 88px;
+	height: 31px;
 }
 
-.introimage img, .introimage {
-    display: inline;
-    height: 12rem;
-    width: 12rem;
+.introimage img,
+.introimage {
+	display: inline;
+	height: 12rem;
+	width: 12rem;
 }
 .introtext {
-    display: inline-block;
-    width: 23.5rem;
+	display: inline-block;
+	width: 23.5rem;
 }
 
 @media (max-width: 9000px) {
-    :root {
-        font-size: 20px;
-    }
+	:root {
+		font-size: 20px;
+	}
 }
 @media (max-width: 2200px) {
-    :root {
-        font-size: 16px;
-    }
+	:root {
+		font-size: 16px;
+	}
 }
 @media (max-width: 1300px) {
-    :root {
-        font-size: 14px;
-    }
+	:root {
+		font-size: 14px;
+	}
 }
 @media (max-width: 850px) {
-    :root {
-        font-size: 14px;
-    }
-    .pagebody {
-        width: auto;
-        width: 49rem;
-    }
-.introtext {
-    width: 17.6rem;
-    font-size: 1rem;
-}
-#box1, #box4 {
-    width: 30rem;
-    height: 12rem;
-}
-#box2, #box3 {
-    width: 12rem;
-    height: 12rem;
-}
-#box5, #box6 {
-    width: 21rem;
-    height: 10rem;
-}
-#box5 div {
-    display: inline-block;
-}
+	:root {
+		font-size: 14px;
+	}
+	.pagebody {
+		width: auto;
+		width: 49rem;
+	}
+	.introtext {
+		width: 17.6rem;
+		font-size: 1rem;
+	}
+	#box1,
+	#box4 {
+		width: 30rem;
+		height: 12rem;
+	}
+	#box2,
+	#box3 {
+		width: 12rem;
+		height: 12rem;
+	}
+	#box5,
+	#box6 {
+		width: 21rem;
+		height: 10rem;
+	}
+	#box5 div {
+		display: inline-block;
+	}
 }
 @media (max-width: 700px) {
-    :root {
-        font-size: 14px;
-    }
-    .pagebody {
-        width: auto;
-        width: 40rem;
-    }
-    #box1,
-    #box2,
-    #box3,
-    #box4,
-    #box5,
-    #box6 {
-        width: 36rem;
-        height: 12rem;
-    }
-    #box5 div {
-        display: inline-block;
-    }
-.introtext {
-    width: 23.5rem;
-    font-size: 1.2rem;
-}
+	:root {
+		font-size: 14px;
+	}
+	.pagebody {
+		width: auto;
+		width: 40rem;
+	}
+	#box1,
+	#box2,
+	#box3,
+	#box4,
+	#box5,
+	#box6 {
+		width: 36rem;
+		height: 12rem;
+	}
+	#box5 div {
+		display: inline-block;
+	}
+	.introtext {
+		width: 23.5rem;
+		font-size: 1.2rem;
+	}
 }
 @media (max-width: 600px) {
-    :root {
-        font-size: 12px;
-    }
+	:root {
+		font-size: 12px;
+	}
 }
 @media (max-width: 520px) {
-    :root {
-        font-size: 10px;
-    }
+	:root {
+		font-size: 10px;
+	}
 }
 @media (max-width: 435px) {
-    .pagetitle {
-        font-size: 36px;
-    }
-    :root {
-        font-size: 8px;
-    }
-    .pagetitle::after {
-        content: " is too big to display for your display. Please unzoom.";
-    }
+	.pagetitle {
+		font-size: 36px;
+	}
+	:root {
+		font-size: 8px;
+	}
+	.pagetitle::after {
+		content: " is too big to display for your display. Please unzoom.";
+	}
 }
