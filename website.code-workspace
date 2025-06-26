@@ -3,5 +3,31 @@
         {
             "path": "."
         }
-    ]
+    ],
+    "settings": {
+        "vscord.app.name": "Custom",
+        "vscord.app.id": "1372585480218087475",
+        "vscord.status.problems.text": "- {problems_count} pwoblems found x3",
+        "vscord.status.details.text.debugging": "defluffin' {file_name}{file_extension} xwx",
+        "vscord.status.details.text.editing": "on {workspace} with {problems} =*w*=",
+        "vscord.status.details.text.idle": "eeping zwz",
+        "vscord.status.details.text.notInFile": "not on a file!",
+        "vscord.status.details.text.noWorkSpaceText": "no cat tree,,",
+        "vscord.status.details.text.viewing": "on {workspace} {problems}",
+        "vscord.status.state.text.debugging": "defluffin': {workspace}",
+        "vscord.status.state.text.editing": "scratching {file_name}{file_extension} - {current_line}:{current_column} ^w^",
+        "vscord.status.state.text.noWorkspaceFound": "no cat tree,,",
+        "vscord.status.state.text.viewing": "admiring {file_name}{file_extension} owo",
+        "vscord.status.image.large.debugging.text": "defluffin' a {LANG} file xwx",
+        "vscord.status.image.large.editing.text": "scratching a {LANG} file :3",
+        "vscord.status.state.text.idle": "mrowwww",
+        "vscord.status.state.text.notInFile": "awa",
+        "vscord.status.image.large.idle.text": "eeping zwz",
+        "vscord.status.image.large.viewing.text": "admiring a {LANG} file >w<",
+        "vscord.status.image.small.idle.text": "=_w_= Zzz",
+        "vscord.status.image.small.notInFile.text": "eeping,",
+        "vscord.status.buttons.button1.git.active.label": "see the repo !1!!1",
+        "vscord.status.buttons.button1.git.idle.label": "see the repo !1!!1",
+        "vscord.status.buttons.button1.git.inactive.label": "see the repo !1!!1"
+    }
 }
