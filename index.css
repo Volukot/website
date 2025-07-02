@@ -99,6 +99,19 @@ nav a:active,
 	font-size: 1.2rem;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+	margin-left: 2rem;
+}
+
+.boxtitle {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
 #box1,
 #box4 {
 	width: 36rem;
