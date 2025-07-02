@@ -23,7 +23,6 @@ body {
 	font-weight: 600;
 }
 
-nav,
 .pagenav {
 	background: #aa77ff;
 	background: #0000ff55;
@@ -38,17 +37,29 @@ nav,
 	align-self: center;
 }
 
-nav a,
+.ocpagenav {
+	background: #ff5f47;
+	background: #ff582055;
+	margin: auto;
+	padding: 0.4rem;
+	margin-bottom: 0.5rem;
+	border: 0.2rem solid #a0b0ff;
+	border: 0.2rem solid #00ffff55;
+	border: 0.2rem solid #ff4000;
+	font-size: 1.25rem;
+	max-width: fit-content;
+	align-self: center;
+}
+
 .pagenav a {
 	display: inline-block;
 	color: white;
 	background: #ff00ff;
 	border-width: 2px;
 	border: solid;
-	border-color: #00ffff;
 	border: 0.2rem solid #00ffff;
 	text-decoration: none;
-	width: 6rem;
+	width: 5.5rem;
 	height: 1.25rem;
 	text-align: center;
 	margin: 0.2rem;
@@ -58,13 +69,38 @@ nav a,
 	font-weight: 500;
 	vertical-align: middle;
 }
-nav a:hover,
 .pagenav a:hover {
 	color: aqua;
 	background: red;
 }
-nav a:active,
 .pagenav a:active {
+	color: red;
+	background: aqua;
+}
+
+.ocpagenav a {
+	display: inline-block;
+	color: white;
+	background: #ff5500;
+	border-width: 2px;
+	border: solid;
+	border: 0.2rem solid #ffd000;
+	text-decoration: none;
+	width: 7rem;
+	height: 1.25rem;
+	text-align: center;
+	margin: 0.2rem;
+	padding: 0.5rem;
+	padding-bottom: 0.7rem;
+	/*-webkit-text-stroke: white 0.05rem;*/
+	font-weight: 500;
+	vertical-align: middle;
+}
+.ocpagenav a:hover {
+	color: aqua;
+	background: red;
+}
+.ocpagenav a:active {
 	color: red;
 	background: aqua;
 }
@@ -94,6 +130,7 @@ nav a:active,
 	padding: 1rem;
 	margin: 0.5rem 0.5rem;
 	width: 20rem; /* Default incase something goes wrong */
+	height: 15rem; /* Default incase something goes wrong */
 	text-align: left;
 	vertical-align: top;
 	font-size: 1.2rem;
@@ -112,22 +149,22 @@ ul {
 	margin-bottom: 0.5rem;
 }
 
-#box1,
-#box4 {
+#pagebody-home #box1,
+#pagebody-home #box4 {
 	width: 36rem;
 	height: 12rem;
 }
-#box2,
-#box3 {
+#pagebody-home #box2,
+#pagebody-home #box3 {
 	width: 16rem;
 	height: 12rem;
 }
-#box5,
-#box6 {
+#pagebody-home #box5,
+#pagebody-home #box6 {
 	width: 26rem;
 	height: 10rem;
 }
-#box5 div {
+#pagebody-home #box5 div {
 	display: inline-block;
 }
 
@@ -149,8 +186,21 @@ img .button8831 {
 }
 
 #navelement-photo::after {
-    content: "graphs";
+    /*content: "graphs";*/
+	content: "s";
 }
+
+
+#pagebody-oc #box1,
+#pagebody-oc #box2 {
+	width: 26rem;
+	height: 39rem;
+}
+
+.ocloretext {
+	margin-top: 1rem;
+}
+
 
 @media (max-width: 9000px) {
 	:root {
@@ -179,29 +229,35 @@ img .button8831 {
 		width: 17.6rem;
 		font-size: 1rem;
 	}
-	#box1,
-	#box4 {
+	#pagebody-home #box1,
+	#pagebody-home #box4 {
 		width: 30rem;
 		height: 12rem;
 	}
-	#box2,
-	#box3 {
+	#pagebody-home #box2,
+	#pagebody-home #box3 {
 		width: 12rem;
 		height: 12rem;
 	}
-	#box5,
-	#box6 {
+	#pagebody-home #box5,
+	#pagebody-home #box6 {
 		width: 21rem;
 		height: 10rem;
 	}
-	#box5 div {
+	#pagebody-home #box5 div {
 		display: inline-block;
+	}
+
+	#pagebody-oc #box1,
+	#pagebody-oc #box2 {
+		width: 20rem;
+		height: 30rem;
 	}
 }
 @media (min-width: 700px) {
     nav a,
     .pagenav a {
-	    width: 9rem;
+	    width: 7.4rem;
     }
 }
 @media (max-width: 700px) {
@@ -215,12 +271,12 @@ img .button8831 {
     #navelement-photo::after {
         content: "s";
     }
-	#box1,
-	#box2,
-	#box3,
-	#box4,
-	#box5,
-	#box6 {
+	#pagebody-home #box1,
+	#pagebody-home box2,
+	#pagebody-home #box3,
+	#pagebody-home #box4,
+	#pagebody-home #box5,
+	#pagebody-home #box6 {
 		width: 36rem;
 		height: 12rem;
 	}
@@ -230,6 +286,12 @@ img .button8831 {
 	.introtext {
 		width: 23.5rem;
 		font-size: 1.2rem;
+	}
+
+	#pagebody-oc #box1,
+	#pagebody-oc #box2 {
+		width: 36rem;
+		height: 54rem;
 	}
 }
 @media (max-width: 600px) {
