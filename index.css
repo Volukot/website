@@ -172,6 +172,8 @@ ul {
 img .button8831 {
 	width: 88px;
 	height: 31px;
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: pixelated;
 }
 
 .introimage img,
@@ -206,10 +208,20 @@ img .button8831 {
 	:root {
 		font-size: 20px;
 	}
+	.button8831,
+	img .button8831 {
+		width: 176px;
+		height: 62px;
+}
 }
 @media (max-width: 2200px) {
 	:root {
 		font-size: 16px;
+	}
+	.button8831,
+	img .button8831 {
+		width: 88px;
+		height: 31px;
 	}
 }
 @media (max-width: 1300px) {
