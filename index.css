@@ -204,7 +204,7 @@ img .button8831 {
 }
 
 
-@media (max-width: 9000px) {
+@media (min-width: 9000px) {
 	:root {
 		font-size: 20px;
 	}
