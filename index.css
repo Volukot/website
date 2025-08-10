@@ -17,13 +17,13 @@ a {
 	color: cyan;
 	text-decoration: none;
 }
-a:hover {
-	color: pink;
-	text-decoration: underline;
-}
 a:visited {
 	color: #00aaff;
 	text-decoration: none;
+}
+a:hover {
+	color: pink;
+	text-decoration: underline;
 }
 
 .pagetitle {
