@@ -7,10 +7,23 @@
 }
 
 body {
-	font-family: Rubik, "Liberation Sans", Roboto, sans-serif;
+	font-family: Rubik, "Liberation Sans", Roboto, sans-serif, Ubuntu;
 	background: #ffbbcd;
 	font-weight: normal;
 	color: white;
+}
+
+a {
+	color: cyan;
+	text-decoration: none;
+}
+a:hover {
+	color: pink;
+	text-decoration: underline;
+}
+a:visited {
+	color: #00aaff;
+	text-decoration: none;
 }
 
 .pagetitle {
