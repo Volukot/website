@@ -29,6 +29,10 @@
         "vscord.status.buttons.button1.git.active.label": "see the repo !1!!1",
         "vscord.status.buttons.button1.git.idle.label": "see the repo !1!!1",
         "vscord.status.buttons.button1.git.inactive.label": "see the repo !1!!1",
-        "vscord.ignore.workspacesText": "cat tree"
+        "vscord.ignore.workspacesText": "cat tree",
+        "prettier.printWidth": 100,
+        "prettier.bracketSameLine": true,
+        "prettier.useTabs": true,
+        "prettier.tabWidth": 4
     }
 }
