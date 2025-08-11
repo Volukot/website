@@ -18,12 +18,16 @@ a {
 	text-decoration: none;
 }
 a:visited {
-	color: #00aaff;
+	color: #00bbff;
 	text-decoration: none;
 }
 a:hover {
 	color: pink;
 	text-decoration: underline;
+}
+a:active {
+	color: red;
+	text-decoration: wavy;
 }
 
 .pagetitle {
