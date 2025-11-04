@@ -54,20 +54,6 @@ a:active {
 	align-self: center;
 }
 
-.ocpagenav {
-	background: #ff5f47;
-	background: #ff582055;
-	margin: auto;
-	padding: 0.4rem;
-	margin-bottom: 0.5rem;
-	border: 0.2rem solid #a0b0ff;
-	border: 0.2rem solid #00ffff55;
-	border: 0.2rem solid #ff4000;
-	font-size: 1.25rem;
-	max-width: fit-content;
-	align-self: center;
-}
-
 .pagenav a {
 	display: inline-block;
 	color: white;
@@ -76,7 +62,7 @@ a:active {
 	border: solid;
 	border: 0.2rem solid #00ffff;
 	text-decoration: none;
-	width: 5.4rem;
+	width: 4.15rem;
 	height: 1.25rem;
 	text-align: center;
 	margin: 0.2rem;
@@ -95,33 +81,6 @@ a:active {
 	background: aqua;
 }
 
-.ocpagenav a {
-	display: inline-block;
-	color: white;
-	background: #ff5500;
-	border-width: 2px;
-	border: solid;
-	border: 0.2rem solid #ffd000;
-	text-decoration: none;
-	width: 7rem;
-	height: 1.25rem;
-	text-align: center;
-	margin: 0.2rem;
-	padding: 0.5rem;
-	padding-bottom: 0.7rem;
-	/*-webkit-text-stroke: white 0.05rem;*/
-	font-weight: 500;
-	vertical-align: middle;
-}
-.ocpagenav a:hover {
-	color: aqua;
-	background: red;
-}
-.ocpagenav a:active {
-	color: red;
-	background: aqua;
-}
-
 .pagebody {
 	display: block;
 	/*display: grid;*/
@@ -132,7 +91,8 @@ a:active {
 	justify-content: center;
 	text-align: center;
 	gap: 2rem;
-	width: 60rem;
+	width: auto;
+	width: 50rem;
 }
 
 .box {
@@ -150,7 +110,7 @@ a:active {
 	height: 15rem; /* Default incase something goes wrong */
 	text-align: left;
 	vertical-align: top;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 ul {
@@ -167,26 +127,24 @@ ul {
 }
 
 #pagebody-home #box1 {
-	width: 36rem;
-	height: 12rem;
+width: 31rem;
+height: 11rem;
 }
 #pagebody-home #box2 {
-	width: 16rem;
-	height: 12rem;
-	/*padding-left: 0rem;
-	padding-right: 0rem;*/
+	width: 11rem;
+	height: 11rem;
 }
 #pagebody-home #box3 {
-	width: 16rem;
+	width: 8rem;
 	height: 4rem;
 }
 #pagebody-home #box4 {
-	width: 36rem;
+	width: 34rem;
 	height: 4rem;
 }
 #pagebody-home #box5,
 #pagebody-home #box6 {
-	width: 26rem;
+	width: 21rem;
 	height: 10rem;
 }
 #pagebody-home #box5 div {
@@ -204,29 +162,18 @@ img .button8831 {
 .introimage img,
 .introimage {
 	display: inline;
-	height: 12rem;
-	width: 12rem;
+	height: 11rem;
+	width: 11rem;
 }
 .introtext {
 	display: inline-block;
-	width: 23.5rem;
+	width: 19.7rem;
 	text-align: justify;
 }
 
 #navelement-photo::after {
     /*content: "graphs";*/
 	content: "s";
-}
-
-
-#pagebody-oc #box1,
-#pagebody-oc #box2 {
-	width: 26rem;
-	height: 39rem;
-}
-
-.ocloretext {
-	margin-top: 1rem;
 }
 
 .mybuttonbox div {
@@ -250,7 +197,7 @@ img .button8831 {
 }
 @media (max-width: 2200px) {
 	:root {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.button8831,
 	img .button8831 {
@@ -260,67 +207,21 @@ img .button8831 {
 }
 @media (max-width: 1300px) {
 	:root {
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
-@media (max-width: 850px) {
+@media (max-width: 900px) {
 	:root {
 		font-size: 14px;
 	}
-	.pagebody {
-		width: auto;
-		width: 49rem;
-	}
-	.box {
-		font-size: 1rem;
-	}
-	.introtext {
-		width: 19.7rem;
-	}
-	.introimage img,
-	.introimage {
-		display: inline;
-		height: 11rem;
-		width: 11rem;
-	}
-	#pagebody-home #box1 {
-	width: 31rem;
-	height: 11rem;
-	}
-	#pagebody-home #box2 {
-		width: 11rem;
-		height: 11rem;
-	}
-	#pagebody-home #box3 {
-		width: 8rem;
-		height: 4rem;
-	}
-	#pagebody-home #box4 {
-		width: 34rem;
-		height: 4rem;
-	}
-	#pagebody-home #box5,
-	#pagebody-home #box6 {
-		width: 21rem;
-		height: 10rem;
-	}
-	#pagebody-home #box5 div {
-		display: inline-block;
-	}
-
-	#pagebody-oc #box1,
-	#pagebody-oc #box2 {
-		width: 20rem;
-		height: 30rem;
-	}
 }
-@media (min-width: 700px) {
+@media (min-width: 721px) {
     nav a,
     .pagenav a {
-	    width: 7.4rem;
+	    width: 5.8rem;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 720px) {
 	:root {
 		font-size: 12px;
 	}

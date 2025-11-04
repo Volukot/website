@@ -1,0 +1,51 @@
+/*DON'T FORGET TO BRING MEDIA TAGS FROM MAIN HERE!*/
+.ocpagenav {
+	background: #ff5f47;
+	background: #ff582055;
+	margin: auto;
+	padding: 0.4rem;
+	margin-bottom: 0.5rem;
+	border: 0.2rem solid #a0b0ff;
+	border: 0.2rem solid #00ffff55;
+	border: 0.2rem solid #ff4000;
+	font-size: 1.25rem;
+	max-width: fit-content;
+	align-self: center;
+}
+
+.ocpagenav a {
+	display: inline-block;
+	color: white;
+	background: #ff5500;
+	border-width: 2px;
+	border: solid;
+	border: 0.2rem solid #ffd000;
+	text-decoration: none;
+	width: 7rem;
+	height: 1.25rem;
+	text-align: center;
+	margin: 0.2rem;
+	padding: 0.5rem;
+	padding-bottom: 0.7rem;
+	/*-webkit-text-stroke: white 0.05rem;*/
+	font-weight: 500;
+	vertical-align: middle;
+}
+.ocpagenav a:hover {
+	color: aqua;
+	background: red;
+}
+.ocpagenav a:active {
+	color: red;
+	background: aqua;
+}
+
+#pagebody-oc #box1,
+#pagebody-oc #box2 {
+	width: 20rem;
+	height: 30rem;
+}
+
+.ocloretext {
+	margin-top: 1rem;
+}
