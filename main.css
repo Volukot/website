@@ -147,11 +147,15 @@ ul {
 }
 #pagebody-home #box3 {
 	width: 13rem;
-	height: 4rem;
+	height: max-content;
+	padding-bottom: auto;
+	height: 4.65rem;
 }
 #pagebody-home #box4 {
 	width: 29rem;
-	height: 4rem;
+	height: fit-content;
+	text-align: center;
+	display: inline-block;
 }
 #pagebody-home #box5,
 #pagebody-home #box6 {
@@ -160,6 +164,11 @@ ul {
 }
 #pagebody-home #box5 div {
 	display: inline-block;
+}
+
+.friendsbuttonsbox a img {
+	margin-top: 0.4rem;
+	margin-bottom: 0.rem;
 }
 
 .button8831,
@@ -207,34 +216,46 @@ img .button8831 {
 }
 
 
+
 @media (max-width: 900000px) {
 	:root {
 		font-size: 36px;
 	}
 	.button8831,
-	img .button8831 {
+	img .button8831, #mybuttoncode, .friendsbuttonsbox a img {
 		width: 176px;
 		height: 62px;
-}
+	}
+	#pagebody-home #box3 {
+		height: 4.2rem;
+	}
 }
 @media (max-width: 3500px) {
 	:root {
 		font-size: 18px;
 	}
 	.button8831,
-	img .button8831 {
+	img .button8831,
+	#mybuttoncode,
+	.friendsbuttonsbox a img {
 		width: 88px;
 		height: 31px;
-	}
+}
 }
 @media (max-width: 1300px) {
 	:root {
 		font-size: 16px;
 	}
+	#pagebody-home #box3 {
+		height: 4.65rem;
+	}
 }
 @media (max-width: 900px) {
 	:root {
 		font-size: 14px;
+	}
+	#pagebody-home #box3 {
+		height: 5.229rem;
 	}
 }
 @media (min-width: 730px) {
@@ -273,11 +294,13 @@ img .button8831 {
 	}
 	#pagebody-home #box3 {
 		width: 9rem;
-		height: 7rem;
+		height: 8.9rem;
 	}
 	#pagebody-home #box4 {
 		width: 23rem;
 		height: 7rem;
+		height: fit-content;
+		text-align: center;
 	}
 	#pagebody-home #box5,
 	#pagebody-home #box6 {
@@ -289,7 +312,7 @@ img .button8831 {
 		margin-left: 1rem;
 		font-size: 1rem;
 	}
-	#box5 div {
+	#pagebody-home #box5 div {
 		display: inline-block;
 	}
 	.introtext {
@@ -310,6 +333,9 @@ img .button8831 {
 @media (max-width: 490px) {
 	:root {
 		font-size: 10px;
+	}
+	.pagetitle::after {
+		content: " is too big to display for your display. Please unzoom.";
 	}
 }
 @media (max-width: 410px) {
