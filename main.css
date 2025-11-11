@@ -225,13 +225,13 @@ img .button8831 {
 		font-size: 14px;
 	}
 }
-@media (min-width: 721px) {
+@media (min-width: 730px) {
     nav a,
     .pagenav a {
-	    width: 5.8rem;
+	  width: 5.8rem;
     }
 }
-@media (max-width: 720px) {
+@media (max-width: 700px) {
 	:root {
 		font-size: 12px;
 	}
@@ -240,7 +240,7 @@ img .button8831 {
 		width: 40rem;
 	}
     #navelement-photo::after {
-        content: "s";
+        content: "";
     }
 	.box {
 		font-size: 1rem;
@@ -271,17 +271,12 @@ img .button8831 {
 		height: 54rem;
 	}
 }
-@media (max-width: 600px) {
-	:root {
-		font-size: 12px;
-	}
-}
-@media (max-width: 500px) {
+@media (max-width: 490px) {
 	:root {
 		font-size: 10px;
 	}
 }
-@media (max-width: 425px) {
+@media (max-width: 410px) {
 	.pagetitle {
 		font-size: 30px;
 	}
