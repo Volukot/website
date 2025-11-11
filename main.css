@@ -119,6 +119,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	margin-left: 2rem;
+	font-size: 1.1rem;
 }
 
 .boxtitle {
@@ -137,19 +138,19 @@ ul {
 }
 
 #pagebody-home #box1 {
-width: 31rem;
-height: 11rem;
+	width: 31rem;
+	height: 10rem;
 }
 #pagebody-home #box2 {
 	width: 11rem;
-	height: 11rem;
+	height: 10rem;
 }
 #pagebody-home #box3 {
-	width: 8rem;
+	width: 13rem;
 	height: 4rem;
 }
 #pagebody-home #box4 {
-	width: 34rem;
+	width: 29rem;
 	height: 4rem;
 }
 #pagebody-home #box5,
@@ -172,13 +173,14 @@ img .button8831 {
 .introimage img,
 .introimage {
 	display: inline;
-	height: 11rem;
-	width: 11rem;
+	height: 9.5rem;
+	width: 9.5rem;
 }
 .introtext {
 	display: inline-block;
 	width: 19.7rem;
 	text-align: justify;
+	font-size: 1.15rem;
 }
 
 #navelement-photo::after {
@@ -193,6 +195,16 @@ img .button8831 {
 	display: inline-block;
 }
 
+.code {
+
+}
+#mybuttoncode {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 88px;
+	height: 31px;
+}
 
 
 @media (max-width: 900000px) {
@@ -239,30 +251,54 @@ img .button8831 {
 		width: auto;
 		width: 40rem;
 	}
+	.boxtitle {
+		font-size: 1.3rem;
+		margin-bottom: 0.1rem;
+		margin-top: 0.1rem;
+	}
     #navelement-photo::after {
         content: "";
     }
 	.box {
 		font-size: 1rem;
 	}
-	#pagebody-home #box1,
-	#pagebody-home #box4,
+	#pagebody-home #box1 {
+		width: 25rem;
+		height: 8rem;
+	}
+	#pagebody-home #box2 {
+		width: 7rem;
+		height: 8.5rem;
+		padding-top: 0.5rem;
+	}
+	#pagebody-home #box3 {
+		width: 9rem;
+		height: 7rem;
+	}
+	#pagebody-home #box4 {
+		width: 23rem;
+		height: 7rem;
+	}
 	#pagebody-home #box5,
 	#pagebody-home #box6 {
 		width: 35.6rem;
 		height: 11rem;
 	}
-	#pagebody-home #box2,
-	#pagebody-home #box3 {
-		width: 16rem;
-		height: 12rem;
+	
+	ul {
+		margin-left: 1rem;
+		font-size: 1rem;
 	}
 	#box5 div {
 		display: inline-block;
 	}
 	.introtext {
-		width: 24.3rem;
-		font-size: 1.13rem;
+		width: 17.7rem;
+		font-size: 1rem;
+	}
+	.introimage img {
+		height: 7rem;
+		width: 7rem;
 	}
 
 	#pagebody-oc #box1,
