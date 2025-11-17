@@ -30,10 +30,18 @@ a:active {
 	text-decoration: wavy;
 }
 
+iframe {
+	border: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .pagetitle {
 	color: red;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 4.2rem;
 	font-weight: bold;
 	padding: 0rem;
 	-webkit-text-stroke: white 0.15rem;
@@ -62,7 +70,7 @@ a:active {
 	border: solid;
 	border: 0.2rem solid #00ffff;
 	text-decoration: none;
-	width: 4.15rem;
+	width: 5.8rem;
 	height: 1.25rem;
 	text-align: center;
 	margin: 0.2rem;
@@ -123,6 +131,7 @@ ul {
 }
 
 .boxtitle {
+	display: block;
 	text-align: center;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -146,13 +155,14 @@ ul {
 	height: 10rem;
 }
 #pagebody-home #box3 {
-	width: 13rem;
+	width: 15rem;
 	height: max-content;
 	padding-bottom: auto;
 	height: 4.65rem;
+	height: 8.95rem;
 }
 #pagebody-home #box4 {
-	width: 29rem;
+	width: 27rem;
 	height: fit-content;
 	text-align: center;
 	display: inline-block;
@@ -161,9 +171,6 @@ ul {
 #pagebody-home #box6 {
 	width: 21rem;
 	height: 10rem;
-}
-#pagebody-home #box5 div {
-	display: inline-block;
 }
 
 .friendsbuttonsbox a img {
@@ -203,6 +210,9 @@ img .button8831 {
 .mybuttonbox div div {
 	display: inline-block;
 }
+#mybuttontext {
+	display: block;
+}
 
 .code {
 
@@ -217,7 +227,7 @@ img .button8831 {
 
 
 
-@media (max-width: 900000px) {
+/*@media (max-width: 900000px) {
 	:root {
 		font-size: 36px;
 	}
@@ -249,24 +259,16 @@ img .button8831 {
 	#pagebody-home #box3 {
 		height: 4.65rem;
 	}
-}
-@media (max-width: 900px) {
-	:root {
-		font-size: 14px;
-	}
-	#pagebody-home #box3 {
-		height: 5.229rem;
-	}
-}
-@media (min-width: 730px) {
-    nav a,
-    .pagenav a {
-	  width: 5.8rem;
-    }
-}
-@media (max-width: 700px) {
+}*/
+@media (max-width: 620px) {
 	:root {
 		font-size: 12px;
+	}
+	.pagetitle {
+		font-size: 3.5rem;
+	}
+	.pagenav a {
+		width: 4.15rem;
 	}
 	.pagebody {
 		width: auto;
@@ -323,11 +325,11 @@ img .button8831 {
 		height: 7rem;
 		width: 7rem;
 	}
-
-	#pagebody-oc #box1,
-	#pagebody-oc #box2 {
-		width: 36rem;
-		height: 54rem;
+	.pagetitle::after {
+		content: " is too big to display for your display. Please unzoom.";
+	}
+	.pagetitle::after {
+		content: " (Experimental compact layout)";
 	}
 }
 @media (max-width: 490px) {

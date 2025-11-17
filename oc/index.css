@@ -49,3 +49,139 @@
 .ocloretext {
 	margin-top: 1rem;
 }
+
+
+
+/*@media (max-width: 900000px) {
+	:root {
+		font-size: 36px;
+	}
+	.button8831,
+	img .button8831, #mybuttoncode, .friendsbuttonsbox a img {
+		width: 176px;
+		height: 62px;
+	}
+	#pagebody-home #box3 {
+		height: 4.2rem;
+	}
+}
+@media (max-width: 3500px) {
+	:root {
+		font-size: 18px;
+	}
+	.button8831,
+	img .button8831,
+	#mybuttoncode,
+	.friendsbuttonsbox a img {
+		width: 88px;
+		height: 31px;
+}
+}
+@media (max-width: 1300px) {
+	:root {
+		font-size: 16px;
+	}
+	#pagebody-home #box3 {
+		height: 4.65rem;
+	}
+}
+@media (max-width: 900px) {
+	:root {
+		font-size: 14px;
+	}
+	#pagebody-home #box3 {
+		height: 5.229rem;
+	}
+}
+@media (min-width: 730px) {
+    nav a,
+    .pagenav a {
+	  width: 5.8rem;
+    }
+}*/
+@media (max-width: 700px) {
+	/*:root {
+		font-size: 12px;
+	}
+	.pagebody {
+		width: auto;
+		width: 40rem;
+	}
+	.boxtitle {
+		font-size: 1.3rem;
+		margin-bottom: 0.1rem;
+		margin-top: 0.1rem;
+	}
+    #navelement-photo::after {
+        content: "";
+    }
+	.box {
+		font-size: 1rem;
+	}
+	#pagebody-home #box1 {
+		width: 25rem;
+		height: 8rem;
+	}
+	#pagebody-home #box2 {
+		width: 7rem;
+		height: 8.5rem;
+		padding-top: 0.5rem;
+	}
+	#pagebody-home #box3 {
+		width: 9rem;
+		height: 8.9rem;
+	}
+	#pagebody-home #box4 {
+		width: 23rem;
+		height: 7rem;
+		height: fit-content;
+		text-align: center;
+	}
+	#pagebody-home #box5,
+	#pagebody-home #box6 {
+		width: 35.6rem;
+		height: 11rem;
+	}
+	
+	ul {
+		margin-left: 1rem;
+		font-size: 1rem;
+	}
+	#pagebody-home #box5 div {
+		display: inline-block;
+	}
+	.introtext {
+		width: 17.7rem;
+		font-size: 1rem;
+	}
+	.introimage img {
+		height: 7rem;
+		width: 7rem;
+	}
+
+	*/#pagebody-oc #box1,
+	#pagebody-oc #box2 {
+		width: 36rem;
+		height: 54rem;
+	}
+}/*
+@media (max-width: 490px) {
+	:root {
+		font-size: 10px;
+	}
+	.pagetitle::after {
+		content: " is too big to display for your display. Please unzoom.";
+	}
+}
+@media (max-width: 410px) {
+	.pagetitle {
+		font-size: 30px;
+	}
+	:root {
+		font-size: 8px;
+	}
+	.pagetitle::after {
+		content: " is too big to display for your display. Please unzoom.";
+	}
+}
+*/
