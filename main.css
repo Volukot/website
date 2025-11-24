@@ -7,8 +7,9 @@
 }
 
 body {
-	font-family: Rubik, "Adwaita Sans", "Liberation Sans", Roboto, "Comic Sans MS", sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
-	background: #ffbbcd;
+	font-family: Rubik, "Adwaita Sans", Roboto, "Comic Sans MS", "Liberation Sans", fantasy, sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
+	background-color: #ffb3cc;
+	background-color: hsl(340, 100%, 85%);
 	font-weight: normal;
 	color: white;
 }
@@ -159,7 +160,7 @@ ul {
 	height: max-content;
 	padding-bottom: auto;
 	height: 4.65rem;
-	height: 8.95rem;
+	height: 5.96666rem;
 }
 #pagebody-home #box4 {
 	width: 27rem;
@@ -173,9 +174,11 @@ ul {
 	height: 10rem;
 }
 
-.friendsbuttonsbox a img {
-	margin-top: 0.4rem;
-	margin-bottom: 0.rem;
+.friendsbuttonsbox a img{
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
 }
 
 .button8831,
