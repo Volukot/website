@@ -218,7 +218,9 @@ img .button8831 {
 }
 
 .code {
-
+	background: grey;
+	color: white;
+	font-family: monospace;
 }
 #mybuttoncode {
 	padding: 0;
