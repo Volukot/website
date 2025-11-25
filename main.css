@@ -175,15 +175,9 @@ ul {
 	height: 10rem;
 }
 
-.friendsbuttonsbox a img{
-	margin-top: 0.2rem;
-	margin-bottom: 0.2rem;
-	margin-left: 0.1rem;
-	margin-right: 0.1rem;
-}
-
 .button8831,
-img .button8831 {
+img .button8831,
+.friendsbuttonsbox a img {
 	width: 88px;
 	height: 31px;
 	-ms-interpolation-mode: nearest-neighbor;
@@ -231,6 +225,18 @@ img .button8831 {
 	height: 31px;
 }
 
+#buttonguidelinestext {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.friendsbuttonsbox a img{
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+}
 
 
 /*@media (max-width: 900000px) {
