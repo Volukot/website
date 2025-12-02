@@ -238,6 +238,12 @@ img .button8831,
 	margin-right: 0.1rem;
 }
 
+.wiptext {
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 1rem;
+}
+
 
 /*@media (max-width: 900000px) {
 	:root {
