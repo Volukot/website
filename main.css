@@ -125,6 +125,10 @@ iframe {
 	width: auto;
 	height: auto;
 }
+#box404, #box404 .pagenav {
+	background: none;
+	border: none;
+}
 
 ul {
 	margin: 0;
