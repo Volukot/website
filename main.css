@@ -51,7 +51,7 @@ iframe {
 }
 
 .pagenav {
-	background: #9944ff;
+	background: #7167ff;
 	background: #0000ff44;
 	margin: auto;
 	padding: 0.4rem;
@@ -65,7 +65,7 @@ iframe {
 .pagenav a {
 	display: inline-block;
 	color: white;
-	background: #d600ff;
+	background: #8800ff;
 	background: #bb00ff77;
 	border-width: 2px;
 	border: solid;
