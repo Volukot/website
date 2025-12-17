@@ -51,14 +51,12 @@ iframe {
 }
 
 .pagenav {
-	background: #aa77ff;
-	background: #0000ff55;
+	background: #9944ff;
+	background: #0000ff44;
 	margin: auto;
 	padding: 0.4rem;
 	margin-bottom: 0.5rem;
-	border: 0.2rem solid #a0b0ff;
-	border: 0.2rem solid #00ffff55;
-	border: 0.2rem solid #00aaff;
+	border: 0.2rem solid #0077ff;
 	font-size: 1.25rem;
 	max-width: fit-content;
 	align-self: center;
@@ -68,7 +66,7 @@ iframe {
 	display: inline-block;
 	color: white;
 	background: #d600ff;
-	background: #cc00ffbb;
+	background: #bb00ff77;
 	border-width: 2px;
 	border: solid;
 	border: 0.2rem solid #00ffff;
@@ -114,7 +112,7 @@ iframe {
 	border: 0.2rem solid blue;
 	display: inline-block;
 	background: #dd00ff;
-	background: #cc00ffbb;
+	background: #cc00ff99;
 	padding: 1rem;
 	margin: 0.5rem 0.5rem;
 	width: 20rem; /* Default incase something goes wrong */
