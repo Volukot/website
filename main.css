@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: Rubik, "Adwaita Sans", Roboto, "Comic Sans MS", "Liberation Sans", fantasy, sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
+	font-family: Rubik, "Adwaita Sans", "Comic Sans MS", Roboto, fantasy, sans-serif, Ubuntu; /*hahahahahahaha no Ubuntu for youuu*/
 	background-color: #ffbbc3;
 	background-color: hsl(353, 100%, 87%);
 	background: #ffbbc3 url(/res/img/w.gif) repeat;
@@ -16,7 +16,7 @@ body {
 }
 
 a {
-	color: cyan;
+	color: #00ffff;
 	text-decoration: none;
 }
 a:visited {
@@ -28,7 +28,7 @@ a:hover {
 	text-decoration: underline;
 }
 a:active {
-	color: red;
+	color: #ff0000;
 	text-decoration: wavy;
 }
 
@@ -43,23 +43,22 @@ iframe {
 .pagetitle {
 	color: red;
 	text-align: center;
-	font-size: 4.2rem;
+	font-size: 50px;
 	font-weight: bold;
-	padding: 0rem;
-	-webkit-text-stroke: white 0.15rem;
-	font-weight: 600;
+	padding: 0px;
+	-webkit-text-stroke: white 2px;
 }
 
 .pagenav {
 	background: #bb89d3;
 	background: #0000ff44;
 	margin: auto;
-	padding: 0.4rem;
-	margin-bottom: 0.5rem;
-	border: 0.2rem solid #0077ff;
-	font-size: 1.25rem;
-	max-width: fit-content;
-	align-self: center;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #0077ff;
+	font-size: 16px;
+	width: 200px;
+	height: 40px;
 }
 
 .pagenav a {
@@ -67,16 +66,14 @@ iframe {
 	color: white;
 	background: #bb49e7;
 	background: #bb00ff77;
-	border-width: 2px;
-	border: solid;
-	border: 0.2rem solid #00ffff;
+	border: 2px solid #00ffff;
 	text-decoration: none;
-	width: 5.8rem;
-	height: 1.25rem;
+	width: 77px;
+	height: 15px;
 	text-align: center;
-	margin: 0.2rem;
-	padding: 0.5rem;
-	padding-bottom: 0.7rem;
+	margin: 2px;
+	padding: 6px;
+	padding-bottom: 10px;
 	/*-webkit-text-stroke: white 0.05rem;*/
 	font-weight: 500;
 	vertical-align: middle;
@@ -92,34 +89,25 @@ iframe {
 
 .pagebody {
 	display: block;
-	/*display: grid;*/
-	/*display: flex;*/
 	margin: auto;
-	align-self: center;
-	align-content: center;
-	justify-content: center;
 	text-align: center;
-	gap: 2rem;
 	width: auto;
-	width: 50rem;
+	width: 571px;
 }
 
 .box {
-	border-width: 2px;
-	border: solid;
-	border-color: blue;
-	border: 0.2rem solid #0000ffbb;
-	border: 0.2rem solid blue;
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: #0000ff;*/
+	border: 2px solid #0000ff;
 	display: inline-block;
 	background: #e04be7;
 	background: #cc00ff99;
-	padding: 1rem;
-	margin: 0.5rem 0.5rem;
-	width: 20rem; /* Default incase something goes wrong */
-	height: 15rem; /* Default incase something goes wrong */
+	padding: 10px;
+	margin: 5px;
 	text-align: left;
 	vertical-align: top;
-	font-size: 1rem;
+	font-size: 12px;
 	width: auto;
 	height: auto;
 }
@@ -129,54 +117,51 @@ iframe {
 }
 
 ul {
-	margin: 0;
-	padding: 0;
-	margin-left: 2rem;
-	font-size: 1.1rem;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 24px;
+	font-size: 12px;
 }
 
 .boxtitle {
 	display: block;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 18px;
 	font-weight: bold;
-	margin-bottom: 0.5rem;
+	margin-bottom: 6px;
 }
 
 #box404 {
 	color: red;
-	font-size: 3rem;
+	font-size: 36px;
 	font-weight: bold;
 	width: auto;
 	height: auto;
 }
 
 #pagebody-home #box1 {
-	width: 31rem;
-	height: 10rem;
+	width: 370px;
+	height: 118px;
 }
 #pagebody-home #box2 {
-	width: 11rem;
-	height: 10rem;
+	width: 130px;
+	height: 118px;
 }
 #pagebody-home #box3 {
-	width: 15rem;
-	height: max-content;
+	width: 190px;
+	height: 72px;
 	padding-bottom: auto;
-	height: 4.65rem;
-	height: 5.96666rem;
 }
 #pagebody-home #box4 {
-	width: 27rem;
-	height: 5.96666rem;
-	height: fit-content;
+	width: 310px;
+	height: 72px;
 	text-align: center;
 	display: inline-block;
 }
 #pagebody-home #box5,
 #pagebody-home #box6 {
-	width: 21rem;
-	height: 10rem;
+	width: 250px;
+	height: 100px;
 }
 
 .button8831,
@@ -191,14 +176,14 @@ img .button8831,
 .introimage img,
 .introimage {
 	display: inline;
-	height: 9.5rem;
-	width: 9.5rem;
+	height: 128px;
+	width: 128px;
 }
 .introtext {
 	display: inline-block;
-	width: 19.7rem;
+	width: 239px;
 	text-align: justify;
-	font-size: 1.15rem;
+	font-size: 14px;
 }
 
 #navelement-photo::after {
@@ -222,9 +207,9 @@ img .button8831,
 	font-family: monospace;
 }
 #mybuttoncode {
-	padding: 0;
-	margin: 0;
-	border: 0;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
 	width: 88px;
 	height: 31px;
 }
@@ -236,16 +221,13 @@ img .button8831,
 }
 
 .friendsbuttonsbox a img{
-	margin-top: 0.2rem;
-	margin-bottom: 0.2rem;
-	margin-left: 0.1rem;
-	margin-right: 0.1rem;
+	margin: 3px 1px;
 }
 
 .wiptext {
-	font-size: 3rem;
+	font-size: 36px;
 	text-align: center;
-	margin-top: 1rem;
+	margin-top: 12px;
 }
 
 
